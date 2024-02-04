@@ -10,24 +10,32 @@ export default function Home() {
         <title>Panda Software House</title>
       </Head>
       <div key="1" className={`min-h-screen bg-black flex flex-col items-center justify-center ${inter.className}`}>
-        <div className="flex justify-center gap-4 mb-8">
-          <div className="h-24 w-24 bg-white" />
-          <div className="h-24 w-24 bg-neutral-500" />
+        <div className="flex justify-center gap-1.5 mb-8">
+          <div className="h-24 w-24 bg-white rounded-bl-xl" />
+          <div className="h-24 w-24 bg-neutral-600 rounded-tr-xl" />
         </div>
-        <div className="text-center flex">
-          <h1 className="text-5xl font-bold text-white inline-block">Panda</h1>
-          <div className="text-sm font-semibold text-neutral-400 flex flex-col">
-            <div><span className="text-5xl font-bold">s</span></div>
-            <div><span className="">o</span></div>
+        <div className="text-center flex text-5xl font-bold text-white inline-block">
+          <div className="flex flex-col text-right">
+            <p>Pandas</p>
+            <p className="text-xl pt-0.5">House</p>
+          </div>
+          <div className="pl-1 text-left text-neutral-600">
+            <p className="">oftware</p>
+            <div className="text-xl w-full h-4 mt-2 rounded-md bg-neutral-600"></div>
+          </div>
+          {/* <div className="text-md font-bold text-neutral-300 uppercase flex flex-col">
+            <div><span className="text-5xl font-bold normal-case">s</span></div> */}
+          {/* <div><span className="">o</span></div>
             <div><span className="">f</span></div>
             <div><span className="">t</span></div>
             <div><span className="">w</span></div>
             <div><span className="">a</span></div>
             <div><span className="">r</span></div>
-            <div><span className="">e</span></div>
-          </div>
-          <h1 className="text-5xl font-bold text-white inline-block pl-3">House</h1>
+            <div><span className="">e</span></div> */}
+          {/* </div> */}
+          {/* <h1 className="text-5xl font-bold text-white inline-block pl-3">House</h1> */}
         </div>
+        {/* <p className="text-4xl font-semibold">House</p> */}
       </div>
     </>
   )
