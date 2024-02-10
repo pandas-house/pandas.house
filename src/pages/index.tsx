@@ -10,7 +10,7 @@ export default function Home() {
         <title>Panda Software House</title>
       </Head>
       <div key="1" className={`min-h-screen bg-black flex flex-col items-center justify-center ${inter.className}`}>
-        <div className="flex justify-center gap-1.5 mb-8">
+        <div className="flex justify-center gap-1 mb-8">
           <div className="h-24 w-24 bg-white rounded-bl-xl" />
           <div className="h-24 w-24 bg-neutral-600 rounded-tr-xl" />
         </div>
@@ -19,7 +19,7 @@ export default function Home() {
             <p>Pandas</p>
             <p className="text-xl pt-0.5">House</p>
           </div>
-          <div className="pl-1 text-left text-neutral-600">
+          <div className="pl-0.5 text-left text-neutral-600">
             <p className="">oftware</p>
             <div className="text-xl w-full h-4 mt-2 rounded-md bg-neutral-600"></div>
           </div>
